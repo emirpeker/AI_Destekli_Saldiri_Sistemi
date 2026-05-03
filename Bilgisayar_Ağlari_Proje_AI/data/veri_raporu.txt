@@ -1,0 +1,13 @@
+Gerçek ağ trafiği gizlilik ve karmaşıklık içerdiğinden,
+ projede Packet Tracer'ın ürettiği PDU (Protocol Data Unit) detaylarına sadık kalınarak 
+ bir veri seti oluşturulmuştur. Modelin öğrenmesi için kullanılan temel özellikler (features):
+
+Protocol: TCP (1), UDP (2), ICMP (3).
+
+Destination Port: Hedef port numarası (Port tarama tespiti için).
+
+Packet Size: Paketin byte cinsinden boyutu.
+
+Interval: İki paket arasındaki süre (Saldırı hızını belirlemek için en kritik parametre).
+
+Label: Paketin sınıfı (0: Normal, 1: Saldırı).
